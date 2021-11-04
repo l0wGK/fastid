@@ -4,18 +4,18 @@ Generate an unique id, fast!
 
 # Installation
 
-`npm i fastid --save`
+`npm i fastids --save`
 
 Then...
 
 ```
-const fastid = require('fastid');
+const fastids = require('fastids');
 
-console.log(fastid.generate());
+console.log(fastids.generate());
 ```
 
 ## Options
 
-FastID supports 1 option, which is optional:
+FastIDs supports 1 option, which is optional:
 
 * *length* - number (Defaults to 6)

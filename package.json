@@ -1,0 +1,25 @@
+{
+  "name": "fastids",
+  "version": "1.0.2",
+  "description": "Generate unqiue IDs fast.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l0wGK/fastid.git"
+  },
+  "keywords": [
+    "id"
+  ],
+  "author": "Lowe Garmark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l0wGK/fastid/issues"
+  },
+  "homepage": "https://github.com/l0wGK/fastid#readme",
+  "dependencies": {
+    "fastids": "^1.0.0"
+  }
+}

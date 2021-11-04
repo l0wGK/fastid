@@ -4,7 +4,7 @@ Generate an unique id, fast!
 
 # Installation
 
-`npm i fastids --save`
+`npm install fastids --save`
 
 Then...
 

@@ -1,3 +1,5 @@
+const fastrand = require('fastrand');
+
 /**
  * @param {number} length 
  * @returns 
@@ -9,7 +11,7 @@ function generate(length) {
     length = length ? length : 6;
 
     for (var i = 0; i < length; i++) {
-        var random = Math.floor(Math.random() * chars.length);
+        var random = fastrand.int(chars.length-1,0);
         id += chars.charAt(random);
     }
 
